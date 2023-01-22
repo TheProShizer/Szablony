@@ -7,12 +7,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title>Szablony</title>
   <link rel="stylesheet" href="style.css">
-  <style type="text/css" id="operaUserStyle"></style>
+  <meta name="theme-color" content="#338cff" />
+  <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/1020427836244361266/1066833184723050597/dc_szablony_awatar.jpg">
+  <!-- Primary Meta Tags -->
+  <title>ShizeClone</title>
+  <meta name="title" content="Szablony®" />
+  <meta name="description" content="Szablony® to jeden z najbardziej aktywnych serwerów discord o tematyce szablony w Polsce. Posiadamy doświadczony support i tysiące szablonów!" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://szablonypolska.pl/" />
+  <meta property="og:title" content="Szablony®" />
+  <meta
+    property="og:description"
+    content="Szablony® to jeden z najbardziej aktywnych serwerów discord o tematyce szablony w Polsce. Posiadamy doświadczony support i tysiące szablonów!"
+  />
+  <meta property="og:image" content="" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://szablonypolska.pl/" />
+  <meta property="twitter:title" content="Szablony®" />
+  <meta
+    property="twitter:description"
+    content="Szablony® to jeden z najbardziej aktywnych serwerów discord o tematyce szablony w Polsce. Posiadamy doświadczony support i tysiące szablonów!"
+  />
+  <meta property="twitter:image" content="" />
+
  </head>
     
  <body>
+
+
   <div class="preloader"></div>
   <h1> Start strony już wkrótce!</h1>
+  
+  <center><span>Za <strong class="test">20</strong> sekund zostaniesz przekierowany na nasz serwer discord</span></center>
+  <script>
+    const countText = document.querySelector('.test');
+        let time = 20;
 
+        setInterval(function() {
+        time--;
+
+        if (time >= 0) {
+            span = document.querySelector('.test');
+            span.innerHTML = time;
+        }
+
+        if (time === 0) {
+            clearInterval(time);
+        }
+        }, 1000);
+
+        window.setTimeout(function() {
+            window.location.href = href="https://discord.gg/buNHGcMETh";
+        }, 20000);
+  </script>
+  
+  
+  <hr style="width: 50%; color: #338cff;">
+  <footer>
+   <p>Strona by <b>TheProShizer</b></p> 
+  </footer>
+  
+  
  </body>
 </html>

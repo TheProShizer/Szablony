@@ -45,6 +45,19 @@ h1 {
     margin-top: 80px;
 }
 
+hr {
+    margin-top: 20%;
+}
+
+footer {
+    text-align: center;
+}
+
+.test{
+    color: black;
+    font-size: 100%;
+    text-align: center;
+}
 
 
 

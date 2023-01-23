@@ -1,3 +1,4 @@
+
 @keyframes animation {
     0%,
     100% {
@@ -33,7 +34,7 @@
     height: 20px;
     border-radius: 50%;
     animation: animation 1.3s infinite linear;
-    margin-top: 20%;
+    margin-top: 16%;
     display: block;
     
 }
@@ -57,6 +58,18 @@ footer {
     color: black;
     font-size: 100%;
     text-align: center;
+}
+
+.btn3 {
+    margin-left: 42%;
+    padding: 8px 27px;
+    border-style: none;
+    background-color: #338cff;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 

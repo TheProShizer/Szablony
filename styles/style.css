@@ -29,7 +29,7 @@
 
 @keyframes pulse-red {
     0% {
-        box-shadow: 0 0 0 0 rgb(255 82 82 / 70%);
+        box-shadow: 0 0 0 0 #338cff;
     }
     
     70% {

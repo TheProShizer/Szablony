@@ -181,7 +181,8 @@ button.bi{
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     cursor: pointer;
-	
+    margin-left: 10px;
+
 }
 
 .btn1 {
@@ -193,7 +194,17 @@ button.bi{
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     cursor: pointer;
+    margin-right: 10px;
+    
 }
+
+.btn1:hover {background-color: #e2e604}
+
+.btn1:active {
+    background-color: #e2e604;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 .daty {
 	padding: 8px 27px;
@@ -210,4 +221,6 @@ button.bi{
     box-shadow: 0 0 0 0 #ce0e0e;
     -webkit-animation: pulse-red 2s infinite;
     animation: pulse-red 2s infinite;
+    margin-inline: 5px;
 }
+

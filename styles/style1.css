@@ -206,6 +206,11 @@ button.bi{
     transform: translateY(4px);
   }
 
+  .btn:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
 .daty {
 	padding: 8px 27px;
     border-style: none;

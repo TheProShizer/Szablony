@@ -93,6 +93,8 @@ a {
 
 .general__buttons {
   margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .btn {

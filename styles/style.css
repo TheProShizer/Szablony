@@ -108,7 +108,6 @@ a {
   border-radius: 20px;
   font-weight: bold;
   animation: pulse 2s ease infinite;
-  margin-right: 10px;
 }
 
 @keyframes pulse {
@@ -138,7 +137,6 @@ footer {
   border-radius: 20px;
   font-weight: bold;
   animation: pulse1 2s ease infinite;
-  margin-left: 10px;
 }
 
 @keyframes pulse1 {

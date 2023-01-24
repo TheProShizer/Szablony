@@ -1,5 +1,5 @@
 const countText = document.querySelector('.time');
-    		let time = 60;
+    		let time = 180;
 
     		setInterval(function() {
     		  time--;
@@ -16,4 +16,4 @@ const countText = document.querySelector('.time');
 
     		window.setTimeout(function() {
     		  window.location.href = href = "https://discord.gg/buNHGcMETh";
-    		}, 60000);
+    		}, 180000);

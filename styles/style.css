@@ -95,6 +95,11 @@ a {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow:wrap;
+  gap:20px;
 }
 
 .btn {

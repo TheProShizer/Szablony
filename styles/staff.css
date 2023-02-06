@@ -30,34 +30,65 @@
   background-color: #11806a;
   text-shadow: #222222 3px 3px 3px;
   color: #fff;
+  margin-top: 1%;
 }
 
 .tag.is-administrator {
   background-color: #ffa000;
   text-shadow: #222222 3px 3px 3px;
   color: #fff;
+  margin-top: 1%;
 }
 
 .tag.is-co-manager {
   background-color: #B803FF;
   text-shadow: #222222 3px 3px 3px;
   color: #fff;
+  margin-top: 1%;
 }
 
 .tag.is-supervisor {
   background-color: #ffa8fb;
   text-shadow: #222222 3px 3px 3px;
   color: #fff;
+  margin-top: 1%;
+}
+
+@keyframes pulse1 {
+  0% {
+    box-shadow: 0 0 0 0 #ff0000;
+  }
+
+  50% {
+    box-shadow: 0 0 0 10px rgb(51, 140, 255, 0);
+  }
 }
 
 .tag.is-manager {
   background-color: #ff0000;
   text-shadow: #222222 3px 3px 3px;
   color: #fff;
+  animation: pulse1 2s ease infinite;
+  margin-top: 1%;
+}
+
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #00FF00;
+  }
+
+  50% {
+    box-shadow: 0 0 0 10px rgb(51, 140, 255, 0);
+  }
 }
 
 .tag.is-ceo {
   background-color: #00FF00;
   text-shadow: #021310 3px 3px 3px;
   color: #fff;
+  animation: pulse 2s ease infinite;
+  margin-top: 1%;
 }
+
+

@@ -21,7 +21,7 @@
 }
 
 .ceo {
-  border: 3px solid #00FF00;
+  border: 3px solid #24FA36;
 }
 
 /* Custom Staff Tags */
@@ -29,7 +29,7 @@
 .tag.is-moderator {
   background-color: #11806a;
   text-shadow: #222222 3px 3px 3px;
-  color: #fff;
+  color: #110c0c;
   margin-top: 1%;
 }
 
@@ -75,7 +75,7 @@
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 #00FF00;
+    box-shadow: 0 0 0 0 #27D92A;
   }
 
   50% {
@@ -84,7 +84,7 @@
 }
 
 .tag.is-ceo {
-  background-color: #00FF00;
+  background-color: #27D92A;
   text-shadow: #021310 3px 3px 3px;
   color: #fff;
   animation: pulse 2s ease infinite;

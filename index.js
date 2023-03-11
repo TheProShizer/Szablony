@@ -7,7 +7,7 @@ const app = express();
 
 const CLIENT_ID = '954133755902181416';
 const CLIENT_SECRET = 'g9zz0vtY5MgDcgj2a2PE9hU3wMa9mqlq';
-const REDIRECT_URI = 'https://szablonypolska.pl/panel';
+const REDIRECT_URI = 'https://szablonypolska.pl/callback';
 const SCOPES = 'identify email';
 const SESSION_SECRET = 'my-secret-key';
 
